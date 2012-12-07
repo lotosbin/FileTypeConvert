@@ -12,6 +12,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{D97382
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Binbin.FileConvert.Web", "Binbin.FileConvert.Web\Binbin.FileConvert.Web.csproj", "{8CA59F57-B5BA-4E5B-9DD0-7BBACC248F61}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hosts", "Hosts", "{15092AEB-8B11-4E07-8EA8-4509EDF7DF01}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,8 +30,16 @@ Global
 		{A6E37F22-4026-463D-9EC1-1D4733058766}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A6E37F22-4026-463D-9EC1-1D4733058766}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A6E37F22-4026-463D-9EC1-1D4733058766}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CA59F57-B5BA-4E5B-9DD0-7BBACC248F61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CA59F57-B5BA-4E5B-9DD0-7BBACC248F61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CA59F57-B5BA-4E5B-9DD0-7BBACC248F61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CA59F57-B5BA-4E5B-9DD0-7BBACC248F61}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8CA59F57-B5BA-4E5B-9DD0-7BBACC248F61} = {15092AEB-8B11-4E07-8EA8-4509EDF7DF01}
+		{C7323672-4A7D-4E62-A0EE-95B9A3C3BB4F} = {15092AEB-8B11-4E07-8EA8-4509EDF7DF01}
 	EndGlobalSection
 EndGlobal
